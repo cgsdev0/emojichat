@@ -1,11 +1,16 @@
 {
-  "name": "docker_web_app",
-  "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "author": "First Last <first.last@example.com>",
+  "name": "emoji chat",
+  "version": "0.1.0",
+  "description": "A simple chat application",
+  "contributors": [
+    "Michael Roberts <marobs@umich.edu",
+    "Shane Schulte",
+    "Mike McGookey"
+  ],
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/CoolGamrSms/emojichat"
   },
   "dependencies": {
     "express": "^4.13.3"
