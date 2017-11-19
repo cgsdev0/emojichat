@@ -1,18 +1,23 @@
 {
-  "name": "emoji chat",
+  "name": "emojichat",
   "version": "0.1.0",
   "description": "A simple chat application",
   "contributors": [
     "Michael Roberts <marobs@umich.edu>",
     "Shane Schulte",
-    "Mike McGookey"
+    "Mike McGookey",
+    "Alex Roberts <aerobs@umich.edu"
   ],
   "main": "server.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/CoolGamrSms/emojichat"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoolGamrSms/emojichat"
   },
+  "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39"
   }
 }
