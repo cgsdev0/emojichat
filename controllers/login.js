@@ -1,10 +1,10 @@
 let express = require('express');
 let router = express.Router();
 
-// GET /hello route
+// GET /login route
 router.get('/', function(req, res) {
-    console.log("Hello world route");
-    res.send("Hello world!");
+    console.log("Login");
+    res.send("Login route!");
 });
 
 module.exports = router;
